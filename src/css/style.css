@@ -1,0 +1,58 @@
+body{
+    background-image: url('../images/Background_PC.jpg');
+    background-size: 100%;
+}
+.title{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+    border-radius: 35px;
+    background-color: rgba(24, 38, 119, 0.75);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.container{
+    border-radius: 50px;
+    background-color: rgba(24, 38, 119, 0.75);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 50%;
+    text-align: center;
+    padding-top: 50px;
+}
+#dado{
+    height: 35px;
+    border-radius: 20px;
+}
+.button{
+    margin-top: 20px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 40px;
+    background-color: rgb(101, 114, 230);
+}
+.button:hover{
+    background-color: rgb(54, 74, 250);
+}
+.button:active{
+    background-color: rgb(5, 28, 243);
+}
+.resultado{
+    margin-top: 75px;
+}
+@media screen and (max-width:700px){
+    body{
+        background-image: url('../images/Background_MOBILE.jpg');
+        background-size: contain 100%;
+    }
+    .container{
+        margin-top: 10%;
+        width: 50%;
+    }
+}

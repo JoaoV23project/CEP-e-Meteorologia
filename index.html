@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP e Meteorologia</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/script.js"></script>
+    <link rel="shortcut icon" href="src/images/icon_Sun.png" type="image/png">
+</head>
+<body id="body">
+    <h1 class="title">Meteorologia por CEP</h1>
+    <div class="container">
+        <input type="text" name="dado" id="dado" placeholder="Digite um CEP...">
+        <input type="button" value="Verificar" class="button" onclick="buscarCEP()">       
+        <div class="resultado">
+            <h2 id="tempo"></h2>
+            <h2 id="temperatura"></h2>
+            <img id="icone" src="" alt="" width="100px">
+            <h2 id="descricao"></h2>
+            <h2 id="umidade"></h2>
+        </div>
+    </div>
+</body>
+</html>
